@@ -1,0 +1,115 @@
+
+    
+        body {
+            padding-top: 20px;
+        }
+        .brewery-item {
+    background-color: #f9f9f9;
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.brewery-item h2 {
+    color: #333;
+    font-size: 24px;
+}
+#brewery-details-content {
+        background: white;
+        padding: 20px;
+        border-radius: 5px;
+        width: 90%;
+        max-width: 600px;
+        position: relative; /* For absolute positioning of the close button */
+    }
+
+    /* Close button styling */
+    .modal-close-button {
+        position: absolute;
+        top: -10px;
+        right: -10px;
+        border: none;
+        border-radius: 50%;
+        padding: 5px 10px;
+        background-color: red;
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    /* Styling for the modal header */
+    .modal-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #e9ecef;
+    }
+
+    .modal-header h2 {
+        margin-top: 0;
+    }
+.brewery-item p {
+    color: #666;
+    margin: 5px 0;
+}
+
+.brewery-item a {
+    color: #0066cc;
+}
+
+.close-modal {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 30px;
+    color: #fff;
+    background: transparent;
+    border: none;
+}
+
+.close-modal:hover {
+    cursor: pointer;
+    color: #ccc;
+}
+        #search-form {
+            margin-bottom: 20px;
+        }
+        #brewery-details-modal {
+            display: none;
+            position: fixed;
+            z-index: 1050;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            outline: 0;
+            background: rgba(0, 0, 0, 0.5);
+            justify-content: center;
+            align-items: center;
+        }
+        .btn-close-custom {
+            color: red;
+            opacity: 1; 
+        }
+        #brewery-details-content {
+            background: white;
+            padding: 20px;
+            border-radius: 5px;
+            min-width: 300px;
+        }
+        .brewery-item {
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            padding: 15px;
+            margin-bottom: 10px;
+        }
+        .brewery-item h2 {
+            margin-top: 0;
+        }
+        .close-modal {
+            margin-top: 20px;
+        }
